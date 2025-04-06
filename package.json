@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate":"npx drizzle-kit generate",
-    "migrate":"npx drizzle-kit migrate",
-    "studio":"npx drizzle-kit studio"
+    "generate": "npx drizzle-kit generate",
+    "migrate": "npx drizzle-kit migrate",
+    "studio": "npx drizzle-kit studio --verbose"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +18,9 @@
     "@types/node": "^22.14.0",
     "dotenv": "^16.4.7",
     "drizzle-orm": "^0.41.0",
+    "openai": "^4.91.1",
     "pg": "^8.14.1",
+    "readline-sync": "^1.4.10",
     "tsx": "^4.19.3"
   },
   "devDependencies": {
