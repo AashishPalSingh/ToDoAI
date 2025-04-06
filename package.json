@@ -1,0 +1,27 @@
+{
+  "name": "ToDoAI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate":"npx drizzle-kit generate",
+    "migrate":"npx drizzle-kit migrate",
+    "studio":"npx drizzle-kit studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.4",
+  "dependencies": {
+    "@types/node": "^22.14.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "pg": "^8.14.1",
+    "tsx": "^4.19.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.6"
+  }
+}
